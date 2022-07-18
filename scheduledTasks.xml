@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  * plugins/importexport/k10Plus/scheduledTasks.xml
+  *
+  * k10Plus Plugin Deposit
+  *
+  * This file describes the scheduled task that will send deposits to BSZ.
+  *
+  -->
+
+<!DOCTYPE scheduled_tasks SYSTEM "../../../lib/pkp/dtd/scheduledTasks.dtd">
+
+<scheduled_tasks>
+	<task class="plugins.importexport.k10Plus.K10PlusInfoSender">
+		<descr>Deposit article packages to BSZ and update statuses.</descr>
+		<frequency dayofweek="1"/>
+	</task>
+</scheduled_tasks>

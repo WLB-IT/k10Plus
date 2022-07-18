@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filterConfig SYSTEM "../../../../lib/pkp/dtd/filterConfig.dtd">
+
+<!--
+  * plugins/importexport/k10Plus/filter/filterConfig.xml
+  *
+  * Filter Configuration.
+  -->
+<filterConfig>
+	<filterGroups>
+		<!-- k10Plus XML article output -->
+		<filterGroup
+			symbolic="article=>k10Plus-xml"
+			displayName="plugins.importexport.k10Plus.displayName"
+			description="plugins.importexport.k10Plus.description"
+			inputType="class::classes.submission.Submission[]"
+			outputType="xml::schema(http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd)" />
+	</filterGroups>
+	<filters>
+		<!-- k10Plus XML article output -->
+		<filter
+			inGroup="article=>k10Plus-xml"
+			class="plugins.importexport.k10Plus.filter.K10PlusXmlFilter"
+			isTemplate="0" />
+	</filters>
+</filterConfig>

@@ -1,0 +1,113 @@
+msgid "plugins.importexport.k10Plus.intro"
+msgstr "Die folgenden Angaben werden für eine erfolgreiche Abgabe beim BSZ benötigt:"
+
+msgid "plugins.importexport.k10Plus.settings.form.username"
+msgstr "Benutzername"
+
+msgid "plugins.importexport.k10Plus.settings.form.folderId"
+msgstr "Ordner-ID"
+
+msgid "plugins.importexport.k10Plus.settings.form.usernameRequired"
+msgstr "Bitte geben Sie den Benutzer/innennamen ein, den Sie vom BSZ erhalten haben. Der Benutzer/innenname darf keinen Doppelpunkt enthalten."
+
+msgid "plugins.importexport.k10Plus.settings.form.folderId.description"
+msgstr "Der Verzeichnispfad auf dem Server,in dem die exportierten Pakete abgelegt werden sollen."
+
+msgid "plugins.importexport.k10Plus.settings.form.serverAddress"
+msgstr "Server Adresse"
+
+msgid "plugins.importexport.k10Plus.settings.form.serverAddress.description"
+msgstr "Die Serveradresse an die die XML-Dateien gesendet werden."
+
+msgid "plugins.importexport.k10Plus.settings.form.port"
+msgstr "Port"
+
+msgid "plugins.importexport.k10Plus.settings.form.port.description"
+msgstr "Der Port des Servers."
+
+msgid "plugins.importexport.k10Plus.settings.form.automaticDeposit.heading"
+msgstr "Automatische Ablieferung an das BSZ aktivieren"
+
+msgid "plugins.importexport.k10Plus.settings.form.automaticDeposit.description"
+msgstr "OJS prüft regelmäßig, ob es Artikel gibt, die noch nicht an das BSZ abgeliefert wurden und liefert diese automatisch an das BSZ ab. Bitte beachten Sie, dass dieser Prozess eine gewisse Zeit nach der Veröffentlichung dauern kann."
+"<p>Sie können alle nicht abgelieferten Artikel in der Artikelauflistung überprüfen.</p>"
+
+msgid "plugins.importexport.k10Plus.statusLegend"
+msgstr ""
+"\n"
+"\t\t<p>Ablieferungsstatus:</p>\n"
+"\t\t<p>\n <ul>"
+"\t\t<li> Nicht abgeliefert: noch kein Ablieferungsversuch für diesen Artikel.</li>"
+"\t\t<li> Aktiv: Der Artikel wurde abgeliefert.</li>"
+"\t\t<li> Fehlgeschlagen: Ablieferung ist fehlgeschlagen.</li>"
+"\t\t<li> Als aktiv markiert: Der Artikel wurde manuell als aktiv markiert."
+"\t\t<li> Als inaktiv markiert: Der Artikel wurde manuell als inaktiv markiert."
+"\t\t</p>\n  </ul>"
+"\t\t<p>Es wird nur der Status des letzten Übermittlungsversuchs angezeigt.</p>\n"
+"\t\t<p>Wenn eine Ablieferung fehlgeschlagen ist, beheben Sie bitte die Ursache und versuchen Sie es erneut.</p>"
+
+msgid "plugins.importexport.k10Plus.action.register"
+msgstr "Ablieferung"
+
+msgid "plugins.importexport.k10Plus.action.export"
+msgstr "XML herunterladen"
+
+msgid "plugins.importexport.k10Plus.action.markRegistered"
+msgstr "Als aktiv markieren"
+
+msgid "plugins.importexport.k10Plus.action.markUnregistered"
+msgstr "Als inaktiv markieren"
+
+msgid "plugins.importexport.k10Plus.action.selectAll"
+msgstr "Alle auswählen"
+
+msgid "plugins.importexport.k10Plus.status.failed"
+msgstr "Fehlgeschlagen"
+
+msgid "plugins.importexport.k10Plus.status.notdeposited"
+msgstr "Nicht abgeliefert"
+
+msgid "plugins.importexport.k10Plus.status.registered"
+msgstr "Aktiv"
+
+msgid "plugins.importexport.k10Plus.status.markedRegistered"
+msgstr "Als aktiv markiert"
+
+msgid "plugins.importexport.k10Plus.status.markedUnregistered"
+msgstr "Als inaktiv markiert"
+
+msgid "plugins.importexport.k10Plus.displayName"
+msgstr "K10Plus-Export-Plugin"
+
+msgid "plugins.importexport.k10Plus.description"
+msgstr "Dieses Plugin exportiert Artikel im MARC 21 XML Format über SFTP an das BSZ."
+
+msgid "plugins.importexport.k10Plus.settings.form.automaticRegistration.description"
+msgstr "OJS wird Artikel automatisch an k10Plus abliefern. Bitte beachten Sie, dass dieser Prozess eine gewisse Zeit nach der Veröffentlichung dauern kann (z.B. abhängig von Ihrer Cronjob-Konfiguration). Sie können nach allen unregistrierten Artikeln suchen."
+
+msgid "plugins.importexport.k10Plus.senderTask.name"
+msgstr "k10Plus automatische Registrierung"
+
+msgid "plugins.importexport.k10Plus.error.noCopyrightyear"
+msgstr "Im Artikel {$param} fehlt das Jahr des Copyrights!"
+
+msgid "plugins.importexport.k10Plus.error.noKeywordGnd"
+msgstr "Das Schlagwort '{$param1}' im Artikel {$param2} hat keine GND-ID!"
+
+msgid "plugins.importexport.k10Plus.error.noDoi"
+msgstr "Die DOI im Artikel {$param} ist nicht vorhanden!"
+
+msgid "plugins.importexport.k10Plus.error.noZDBId"
+msgstr "Die ZDB ID dieser Zeitschrift fehlt!"
+
+msgid "plugins.importexport.k10Plus.error.noPagesOrCopyrightyear"
+msgstr "Im Artikel {$param} fehlt das Jahr des Copyrights oder die Seitenanzahl!"
+
+msgid "plugins.importexport.k10Plus.error.noUrl"
+msgstr "URL des Artikels {$param} fehlt!"
+
+msgid "plugins.importexport.k10Plus.error.noPPN"
+msgstr "PPN des Artikels {$param} fehlt!"
+
+msgid "plugins.importexport.k10Plus.error.noFile"
+msgstr "Die XML-Datei konnte im Temp-Verzeichnis nicht aufgefunden werden."

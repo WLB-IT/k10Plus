@@ -1,0 +1,112 @@
+msgid "plugins.importexport.k10Plus.intro"
+msgstr "The following information is required for successful deposit to the BSZ:"
+
+msgid "plugins.importexport.k10Plus.settings.form.username"
+msgstr "Username"
+
+msgid "plugins.importexport.k10Plus.settings.form.folderId"
+msgstr "Folder ID"
+
+msgid "plugins.importexport.k10Plus.settings.form.usernameRequired"
+msgstr "Please enter the username you got from the BSZ. The username may not contain colons."
+
+msgid "plugins.importexport.k10Plus.settings.form.folderId.description"
+msgstr "The folder path on the Server to which the deposited packages should be uploaded."
+
+msgid "plugins.importexport.k10Plus.settings.form.serverAddress"
+msgstr "Server Address"
+
+msgid "plugins.importexport.k10Plus.settings.form.serverAddress.description"
+msgstr "The Server address the deposited packages should be uploaded to."
+
+msgid "plugins.importexport.k10Plus.settings.form.port"
+msgstr "Port"
+
+msgid "plugins.importexport.k10Plus.settings.form.port.description"
+msgstr "The port the Server will be listening on."
+
+msgid "plugins.importexport.k10Plus.settings.form.automaticDeposit.heading"
+msgstr "Enable automatic deposit to the BSZ"
+
+msgid "plugins.importexport.k10Plus.settings.form.automaticDeposit.description"
+msgstr "OJS regularly checks if there are articles not yet deposited and deposits them automatically to the BSZ. Please note that this may take a short amount of time after publication to process. You can check for undeposited articles in the article listing."
+
+msgid "plugins.importexport.k10Plus.statusLegend"
+msgstr ""
+"\n"
+"\t\t<p>Deposit status:</p>\n"
+"\t\t<p>\n <ul>"
+"\t\t<li> Not deposited: no deposit attempt has been made for this article.</li>"
+"\t\t<li> Active: the article has been deposited.</li>"
+"\t\t<li> Failed: the article deposit has failed.</li>"
+"\t\t<li> Marked active: the article was manually marked as active.</li>"
+"\t\t<li> Marked inactive: the article was manually marked as inactive.</li>"
+"\t\t</p>\n  </ul>"
+"\t\t<p>Only the status of the last deposit attempt is displayed.</p>\n"
+"\t\t<p>If a deposit has failed, please solve the problem and try to deposit again.</p>"
+
+msgid "plugins.importexport.k10Plus.action.register"
+msgstr "Deposit"
+
+msgid "plugins.importexport.k10Plus.action.export"
+msgstr " Download XML"
+
+msgid "plugins.importexport.k10Plus.action.markRegistered"
+msgstr "Mark as active"
+
+msgid "plugins.importexport.k10Plus.action.markUnregistered"
+msgstr "Mark as inactive"
+
+msgid "plugins.importexport.k10Plus.action.selectAll"
+msgstr "Select all"
+
+msgid "plugins.importexport.k10Plus.status.failed"
+msgstr "Failed"
+
+msgid "plugins.importexport.k10Plus.status.registered"
+msgstr "Active"
+
+msgid "plugins.importexport.k10Plus.status.notdeposited"
+msgstr "Not deposited"
+
+msgid "plugins.importexport.k10Plus.status.markedRegistered"
+msgstr "Marked active"
+
+msgid "plugins.importexport.k10Plus.status.markedUnregistered"
+msgstr "Marked inactive"
+
+msgid "plugins.importexport.k10Plus.displayName"
+msgstr "k10Plus Export Plugin"
+
+msgid "plugins.importexport.k10Plus.description"
+msgstr "This Plugin exports articles in MARC 21 XML format to the BSZ using SFTP."
+
+msgid "plugins.importexport.k10Plus.settings.form.automaticRegistration.description"
+msgstr "OJS will deposit articles automatically to the BSZ. Please note that this may take a short amount of time after publication to process (e.g. depending on your cronjob configuration). You can check for all unregistered articles."
+
+msgid "plugins.importexport.k10Plus.error.noCopyrightyear"
+msgstr "Copyright year missing in submission {$param} !"
+
+msgid "plugins.importexport.k10Plus.error.noKeywordGnd"
+msgstr "The keyword "{$param1}" in the submission {$param2} does not have a GND-ID !"
+
+msgid "plugins.importexport.k10Plus.error.noDoi"
+msgstr "DOI of article {$param} is missing!"
+
+msgid "plugins.importexport.k10Plus.error.noZDBId"
+msgstr "The ZDB-ID of this journal is missing!"
+
+msgid "plugins.importexport.k10Plus.error.noPagesOrCopyrightyear"
+msgstr "Copyright year or number of pages is missing in the submission {$param} !"
+
+msgid "plugins.importexport.k10Plus.error.noUrl"
+msgstr "URL of submission {$param} is missing!"
+
+msgid "plugins.importexport.k10Plus.error.noPPN"
+msgstr "PPN of submission {$param} is missing!"
+
+msgid "plugins.importexport.k10Plus.senderTask.name"
+msgstr "k10Plus Automatic Deposit"
+
+msgid "plugins.importexport.k10Plus.error.noFile"
+msgstr "The XML-file could not be found in the temp-Folder."

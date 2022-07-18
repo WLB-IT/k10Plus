@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/importexport/k10Plus/version.xml
+  *
+  * Plugin version information.
+  -->
+<version>
+	<application>k10Plus</application>
+	<type>plugins.importexport</type>
+	<release>1.0.0.0</release>
+	<date>2021-12-22</date>
+</version>
